@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/accordion"
 import { ThemeProvider } from "@/components/theme-provider"
 import {ModeToggle} from "@/components/mode-toggle"
-
+import {ProfileForm} from "./ProfileForm"
 export  function Home() {
   return (
     <div>
@@ -22,7 +22,7 @@ export  function Home() {
     </AccordionContent>
   </AccordionItem>
 </Accordion>
-
+<ProfileForm></ProfileForm>
     </div>
   )
 }
