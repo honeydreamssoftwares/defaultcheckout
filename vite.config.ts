@@ -9,6 +9,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./@"),
     },
   },
+  base:'/defaultcheckout',
   build: {
     outDir: './build'
   }
